@@ -1,0 +1,16 @@
+{
+  "name": "txt-tree",
+  "description": "Common text sequencing, searching..etc using tries, suffix trees and suffix arrays",
+  "keywords": ["trie","suffix tree","suffix array","text mining"],
+  "version": "0.1.0",
+  "licenses": [{
+    "type": "MIT"
+  }],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nyxtom/text-tree.git"
+  },
+  "engines": {
+    "node": ">=0"
+  }
+}
