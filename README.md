@@ -1,9 +1,9 @@
-# textTree
+# text-tree
 
 Simple data structure and algorithms for use in tries, suffix trees and the like.
 
 ## Getting Started
-Install the module with: `npm install textTree`
+Install the module with: `npm install text-tree`
 
 ```javascript
 var textTree = require('text-tree');
