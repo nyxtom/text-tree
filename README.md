@@ -16,7 +16,7 @@ trie.insert('wicked');
 trie.autoComplete('wo'); // ['wonderful', 'world']
 ```
 
-```
+```javascript
 // Alternatively if you are using client side javascript
 <script type="text/javascript" src="text-tree.min.js"></script>
 <script type="text/javascript">
