@@ -16,7 +16,7 @@ trie.insert('wicked');
 trie.autoComplete('wo'); // ['wonderful', 'world']
 ```
 
-```html
+```
 // Alternatively if you are using client side javascript
 <script type="text/javascript" src="text-tree.min.js"></script>
 <script type="text/javascript">
@@ -28,6 +28,7 @@ trie.insert('wonderful');
 trie.insert('wicked');
 console.log(trie.autoComplete('wo')); // ['wonderful', 'world']
 </script>
+```
 
 ## Contributing
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [grunt](https://github.com/gruntjs/grunt).
