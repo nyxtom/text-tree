@@ -1,5 +1,5 @@
 {
-  "name": "textTree",
+  "name": "text-tree",
   "description": "Simple data structure and algorithms for use in tries, suffix trees and the like.",
   "version": "0.1.0",
   "homepage": "https://github.com/nyxtom/text-tree",

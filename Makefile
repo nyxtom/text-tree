@@ -1,14 +1,14 @@
 JS_FILES = \
-	lib/textTree.js
+	lib/text-tree.js
 
 JS_COMPILER = \
         uglifyjs
 
-all: textTree.js textTree.min.js
-textTree.js: $(JS_FILES)
-textTree.min.js: $(JS_FILES)
+all: text-tree.js text-tree.min.js
+text-tree.js: $(JS_FILES)
+text-tree.min.js: $(JS_FILES)
 
-textTree.js: Makefile
+text-tree.js: Makefile
 	  rm -f $@
 	  cat $(filter %.js,$^) >> $@
 
@@ -17,7 +17,7 @@ textTree.js: Makefile
 	cat $(filter %.js,$^) | $(JS_COMPILER) >> $@
 
 clean:
-	rm -rf textTree.js textTree.min.js
+	rm -rf text-tree.js text-tree.min.js
 
 test: all
 	grunt test

@@ -6,7 +6,7 @@ Simple data structure and algorithms for use in tries, suffix trees and the like
 Install the module with: `npm install textTree`
 
 ```javascript
-var textTree = require('textTree');
+var textTree = require('text-tree');
 var trie = new textTree.trie();
 trie.insert('hello world');
 trie.insert('hi');
@@ -16,9 +16,9 @@ trie.insert('wicked');
 trie.autoComplete('wo'); // ['wonderful', 'world']
 ```
 
-```javascript
+```html
 // Alternatively if you are using client side javascript
-<script type="text/javascript" src="textTree.min.js"></script>
+<script type="text/javascript" src="text-tree.min.js"></script>
 <script type="text/javascript">
 var trie = new textTree.trie();
 trie.insert('hello world');
