@@ -25,6 +25,7 @@
     // current version of the library
     $self.VERSION = '0.1.0';
 
+
     /**
      * Trie: A ordered tree data structure used to store 
      * a dynamic set or associative array where the keys 
@@ -195,5 +196,6 @@
         }
         return child.autoComplete(str, pos + 1);
     };
+
 
 }).call(this);

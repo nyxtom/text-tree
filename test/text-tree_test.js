@@ -1,4 +1,4 @@
-var textTree = require('../lib/text-tree.js');
+var textTree = require('../text-tree.js');
 
 /*
   ======== A Handy Little Nodeunit Reference ========

@@ -1,5 +1,7 @@
 JS_FILES = \
-	lib/text-tree.js
+	lib/prefix.js \
+	lib/trie.js \
+	lib/postfix.js
 
 JS_COMPILER = \
         uglifyjs
